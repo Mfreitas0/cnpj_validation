@@ -1,12 +1,10 @@
 # Validação de CNPJ
 
-<div></div>
-
 ## 📌SOBRE
 Realiza a verificação do CNPJ especificado e informa se é valido ou inválido com base no cálculo de criação do mesmo.
 
 &nbsp;
-### 🔄ULTILIZAÇÃO
+## 🔄ULTILIZAÇÃO
 
 Informe um cnpj:
 
