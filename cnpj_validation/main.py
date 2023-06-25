@@ -1,5 +1,4 @@
-
-from validation_functions import check, second_digit
+from validation_functions import check
 
 def verification_cnpj(n):
     if check (n) == True:
@@ -7,7 +6,10 @@ def verification_cnpj(n):
     else:
         print(f'CNPJ: {n} é Inválido')
 
+cnpj = input('Digite um CNPJ: ')
+verification_cnpj(cnpj)
 
-verification_cnpj('15.436.940/0001-03')
-verification_cnpj('71.506.168/0001-12')
-verification_cnpj('aaaaa')
+""" 
+15.436.940/0001-03
+71.506.168/0001-12
+aaaaa """
